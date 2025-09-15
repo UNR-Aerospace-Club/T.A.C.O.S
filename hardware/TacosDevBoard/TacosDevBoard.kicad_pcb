@@ -167,7 +167,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5366a7b2-f71e-44c4-8a8d-8bc1c56037dd")
 		(sheetname "/")
-		(sheetfile "Tacos.kicad_sch")
+		(sheetfile "TacosDevBoard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -508,6 +508,177 @@
 			)
 		)
 	)
+	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+		(layer "F.Cu")
+		(uuid "41b197c1-d9c4-43b7-ae5e-dcf1831bd36b")
+		(at 139.72 74.93)
+		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
+		(tags "buzzer")
+		(property "Reference" "BZ1"
+			(at 3.8 -7.2 0)
+			(layer "F.SilkS")
+			(uuid "b2315f1b-8699-413f-81af-f212167d26f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 3.8 7.4 0)
+			(layer "F.Fab")
+			(uuid "90596aff-b7ca-4cda-af6a-68454ba4806e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed68cc83-571a-4365-b6a1-2d02a8eb598a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0631a94e-a9c9-4be7-a581-f598fe3ed8bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*Buzzer*")
+		(path "/8cc55125-7a22-4872-9515-a64074daddc7")
+		(sheetname "/")
+		(sheetfile "TacosDevBoard.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 3.8 0)
+			(end 9.9 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "328bad48-d5e2-4a08-bc36-4316ecee9e83")
+		)
+		(fp_circle
+			(center 3.8 0)
+			(end 10.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4297b60f-3d51-4a8f-b6ea-aea1cc2afbd1")
+		)
+		(fp_circle
+			(center 3.8 0)
+			(end 4.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "db914b1e-99ac-4693-acbc-f5e0d7f05b5f")
+		)
+		(fp_circle
+			(center 3.8 0)
+			(end 9.8 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "733707e2-4766-4c68-8776-0ef13ad70b17")
+		)
+		(fp_text user "+"
+			(at -0.01 -2.54 0)
+			(layer "F.SilkS")
+			(uuid "f4c04707-621a-40f3-abf7-a4797d4e9d55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -0.01 -2.54 0)
+			(layer "F.Fab")
+			(uuid "04a5ac86-3acb-4753-9a91-234db30fb02b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.8 -4 0)
+			(layer "F.Fab")
+			(uuid "3de1c457-ce8c-4452-8b89-9e58e17a7d7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "D13")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "e2fbae85-07b2-4f6b-a211-9718f30fc401")
+		)
+		(pad "2" thru_hole circle
+			(at 7.6 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 23 "GND")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "07231728-3a1f-48e8-83b9-75e67c35e4e8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Module:Arduino_Nano"
 		(layer "F.Cu")
 		(uuid "4438bedf-1016-4324-9dfc-73fbeb9b2890")
@@ -565,7 +736,7 @@
 		(property ki_fp_filters "Arduino*Nano*")
 		(path "/2582da7e-fdbd-462b-891e-863f02b71316")
 		(sheetname "/")
-		(sheetfile "Tacos.kicad_sch")
+		(sheetfile "TacosDevBoard.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -1.4 -3.94)
@@ -1298,7 +1469,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a2ef9471-12d2-4ec8-bbd9-d3bd4cf7fca4")
 		(sheetname "/")
-		(sheetfile "Tacos.kicad_sch")
+		(sheetfile "TacosDevBoard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -1698,7 +1869,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e0b7bded-3167-429a-9858-6608887f75a5")
 		(sheetname "/")
-		(sheetfile "Tacos.kicad_sch")
+		(sheetfile "TacosDevBoard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -19.11)
@@ -2022,7 +2193,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/61a243bc-94ff-4bf9-a452-c6a3a62750bd")
 		(sheetname "/")
-		(sheetfile "Tacos.kicad_sch")
+		(sheetfile "TacosDevBoard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.33)
@@ -2288,7 +2459,7 @@
 		)
 	)
 	(gr_rect
-		(start 111.76 81.28)
+		(start 111.76 68.58)
 		(end 150.368 128.016)
 		(stroke
 			(width 0.05)
@@ -2475,6 +2646,30 @@
 		(uuid "55f0ad14-7615-4871-bef8-a2e098792eeb")
 	)
 	(segment
+		(start 137.787 120.007)
+		(end 137.787 76.863)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "3bc97da1-2a7b-458f-8303-86b77380fdbd")
+	)
+	(segment
+		(start 138.938 121.158)
+		(end 137.787 120.007)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "5ff1ce40-740c-48a1-a4de-f43bda5937eb")
+	)
+	(segment
+		(start 137.787 76.863)
+		(end 139.72 74.93)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "eaef7fc7-40da-4a9d-afef-e8906c24e6af")
+	)
+	(segment
 		(start 145.141 99.969)
 		(end 145.141 104.795)
 		(width 0.2)
@@ -2513,6 +2708,22 @@
 		(layer "F.Cu")
 		(net 23)
 		(uuid "2d0652b9-4852-4688-9beb-49ffe1f07c3d")
+	)
+	(segment
+		(start 147.32 79.756)
+		(end 138.938 88.138)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "3bd4959d-f870-4f62-99bd-46f25f89e9a9")
+	)
+	(segment
+		(start 147.32 74.93)
+		(end 147.32 79.756)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "acb2ae69-f9cf-4cd7-b2a2-301787cc23d4")
 	)
 	(segment
 		(start 146.812 105.918)
