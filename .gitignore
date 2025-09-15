@@ -1,0 +1,3 @@
+#Remove KiCad backups from repo
+*backups
+*fp-info-cache
