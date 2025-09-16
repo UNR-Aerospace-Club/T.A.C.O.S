@@ -2460,7 +2460,7 @@
 	)
 	(gr_rect
 		(start 111.76 68.58)
-		(end 150.368 128.016)
+		(end 150.876 128.016)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2468,6 +2468,120 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "bcfa5ab5-d5f1-42f2-9f6e-bfad45a796d5")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "ae6796df-be2f-4719-984b-bcd554009da4")
+		(pts
+			(xy 150.876 68.58) (xy 111.76 68.58)
+		)
+		(height -2.54)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "in")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1.54in"
+			(at 131.318 64.24 0)
+			(layer "Cmts.User")
+			(uuid "ae6796df-be2f-4719-984b-bcd554009da4")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "cd15e16c-f8c3-4db6-adad-8570574de0b7")
+		(pts
+			(xy 146.812 93.218) (xy 115.824 93.218)
+		)
+		(height -11.938)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "in")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1.22in"
+			(at 131.318 79.48 0)
+			(layer "Cmts.User")
+			(uuid "cd15e16c-f8c3-4db6-adad-8570574de0b7")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "f3fb4cc8-cba1-4e41-a86f-e583f505bb30")
+		(pts
+			(xy 138.938 85.598) (xy 123.698 85.598)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "in")
+			(units 0)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "0.6in"
+			(at 131.318 83.798 0)
+			(layer "Cmts.User")
+			(uuid "f3fb4cc8-cba1-4e41-a86f-e583f505bb30")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
 	)
 	(segment
 		(start 138.938 108.458)
