@@ -1977,10 +1977,34 @@
 		)
 	)
 	(junction
+		(at 140.97 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c465874-42b6-405c-be69-5074686134d2")
+	)
+	(junction
+		(at 140.97 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1caab53b-cb77-4bb5-a6f6-c4deab29852c")
+	)
+	(junction
+		(at 110.49 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354f3d79-959f-42d8-a606-35f2061f55e6")
+	)
+	(junction
 		(at 236.22 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fdbaa6b-c7a9-42f3-b8ee-c905f0d33b57")
+	)
+	(junction
+		(at 140.97 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "651310b7-0736-4010-834c-270e678b7c2e")
 	)
 	(junction
 		(at 219.71 144.78)
@@ -2001,6 +2025,18 @@
 		(uuid "74f92928-6ff5-418a-b643-cf33ac1e92b9")
 	)
 	(junction
+		(at 140.97 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7689a191-fe69-4d8f-a414-5493bacec6e2")
+	)
+	(junction
+		(at 110.49 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8545a3e8-0c02-4cb9-98f8-39854048cdc3")
+	)
+	(junction
 		(at 110.49 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2011,6 +2047,78 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e519f9-5577-418f-a373-9881f41a95d6")
+	)
+	(junction
+		(at 140.97 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c1bf8d-3616-4de9-afe0-b54689084e49")
+	)
+	(junction
+		(at 110.49 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98f785c-aace-48e1-ad6f-97ab69a98acc")
+	)
+	(wire
+		(pts
+			(xy 193.04 74.93) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00947565-4154-42ed-9400-1cf27dabc4e6")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066088dd-ff45-43ae-8611-4d4e5def62d5")
+	)
+	(wire
+		(pts
+			(xy 140.97 97.79) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6e0e71-0f83-43e7-a8be-89963b63f921")
+	)
+	(wire
+		(pts
+			(xy 193.04 69.85) (xy 198.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1250b6c7-9aa3-4ea2-a003-a9d0fc25e6aa")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 110.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225507ce-2995-4b54-b1ba-d92006fe7b95")
+	)
+	(wire
+		(pts
+			(xy 193.04 50.8) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4468b775-8958-4701-80d2-02199a47a373")
 	)
 	(wire
 		(pts
@@ -2034,6 +2142,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 64.77) (xy 198.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53456ed6-aab9-4668-8182-1f27c470c467")
+	)
+	(wire
+		(pts
+			(xy 223.52 62.23) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568b05da-1a23-482b-b44e-c57e83d22462")
+	)
+	(wire
+		(pts
 			(xy 110.49 77.47) (xy 110.49 87.63)
 		)
 		(stroke
@@ -2054,6 +2182,56 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 67.31) (xy 198.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65471000-7672-49cc-b92c-e735e85949d6")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aba24c4-0ccf-495a-a130-08d1eedefac0")
+	)
+	(wire
+		(pts
+			(xy 110.49 139.7) (xy 110.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c54b483-8cdb-4f2b-b8b5-6100be234487")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a93a1e-1fc8-4fa3-a232-3edbc4d74348")
+	)
+	(wire
+		(pts
+			(xy 140.97 119.38) (xy 140.97 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7083929-c6df-4a5a-94ec-5fa3777308c2")
+	)
+	(wire
+		(pts
 			(xy 198.12 107.95) (xy 198.12 87.63)
 		)
 		(stroke
@@ -2061,6 +2239,46 @@
 			(type default)
 		)
 		(uuid "a8828d2d-a9e8-4985-82ee-c095ce805d61")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91003dc-8b5b-4ab7-ad23-b9439ab248ba")
+	)
+	(wire
+		(pts
+			(xy 223.52 50.8) (xy 193.04 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc294edf-eaf6-4ff0-b5af-ee9b8309fc70")
+	)
+	(wire
+		(pts
+			(xy 140.97 129.54) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c9e9a8-2bcf-4ea6-8c32-60046a9fca93")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9b0acb-3d13-48b9-99bd-08b9a8cf2c75")
 	)
 	(wire
 		(pts
@@ -2072,9 +2290,39 @@
 		)
 		(uuid "e6e431f8-6faf-497b-878f-cabb0f5967dc")
 	)
+	(wire
+		(pts
+			(xy 193.04 72.39) (xy 198.12 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd4dcdd-0e95-4984-bd6b-b4d2efc5ec99")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeab11d9-954b-4e9c-845d-6ffa54958155")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfc712d-3816-48fa-a334-8265ace03d77")
+	)
 	(global_label "D11"
 		(shape bidirectional)
-		(at 261.62 69.85 0)
+		(at 261.62 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2084,7 +2332,7 @@
 		)
 		(uuid "004ced41-d363-4041-9f01-4c5585c93561")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 69.85 0)
+			(at 266.2916 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2344,7 @@
 	)
 	(global_label "D13"
 		(shape bidirectional)
-		(at 261.62 74.93 0)
+		(at 261.62 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2106,29 +2354,7 @@
 		)
 		(uuid "0d891223-27c1-4f48-b583-0aae14316324")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D7"
-		(shape bidirectional)
-		(at 223.52 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "122356d0-d82a-434a-b583-01b57bc19170")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 80.01 0)
+			(at 266.2916 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2388,7 @@
 	)
 	(global_label "D10"
 		(shape bidirectional)
-		(at 261.62 67.31 0)
+		(at 261.62 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2172,7 +2398,7 @@
 		)
 		(uuid "1712a1bb-0925-4360-b162-5fae37f15a9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 67.31 0)
+			(at 266.2916 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,6 +2452,72 @@
 			)
 		)
 	)
+	(global_label "D9"
+		(shape bidirectional)
+		(at 125.73 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "29e04789-c9f8-41b8-b086-5bcb40253a3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7841 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 261.62 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "3089ce17-8925-4c97-9b38-f99a7b89d3b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.5659 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I5"
+		(shape input)
+		(at 261.62 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "35c861e1-8722-4ced-8178-6f7980bff048")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I0"
 		(shape input)
 		(at 261.62 107.95 0)
@@ -2248,9 +2540,31 @@
 			)
 		)
 	)
+	(global_label "D4"
+		(shape bidirectional)
+		(at 95.25 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "46c23b3e-933c-4128-adbe-a057325e9e3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.3041 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D8"
 		(shape bidirectional)
-		(at 261.62 62.23 0)
+		(at 261.62 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2260,7 +2574,7 @@
 		)
 		(uuid "487183c1-af19-4685-8906-ef3943b9a51c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.5659 62.23 0)
+			(at 265.5659 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2586,7 @@
 	)
 	(global_label "D12"
 		(shape bidirectional)
-		(at 261.62 72.39 0)
+		(at 261.62 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2282,7 +2596,7 @@
 		)
 		(uuid "4f2df119-8ac0-4fd5-bdb7-ba738e9ee6c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 72.39 0)
+			(at 266.2916 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2608,7 @@
 	)
 	(global_label "D3"
 		(shape bidirectional)
-		(at 223.52 69.85 0)
+		(at 223.52 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2304,7 +2618,7 @@
 		)
 		(uuid "52b437f8-223c-455b-9e79-80570040d67b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 69.85 0)
+			(at 227.4659 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2674,7 @@
 	)
 	(global_label "D6"
 		(shape bidirectional)
-		(at 223.52 77.47 0)
+		(at 223.52 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2370,7 +2684,7 @@
 		)
 		(uuid "5b0b9e47-8c4e-44e5-8532-7a63f644ebf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 77.47 0)
+			(at 227.4659 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,6 +2716,28 @@
 			)
 		)
 	)
+	(global_label "D13"
+		(shape bidirectional)
+		(at 125.73 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "618421b2-bec9-4662-b079-97e2b9b4da33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0584 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I0"
 		(shape input)
 		(at 219.71 129.54 180)
@@ -2424,53 +2760,9 @@
 			)
 		)
 	)
-	(global_label "D15"
+	(global_label "D5"
 		(shape bidirectional)
-		(at 261.62 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "76b0079e-cd3d-471c-9c41-40b51d40fc05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D0"
-		(shape bidirectional)
-		(at 223.52 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "868618b3-9096-407c-93e3-32e5a71008a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESP"
-		(shape output)
-		(at 219.71 142.24 180)
+		(at 95.25 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2478,9 +2770,31 @@
 			)
 			(justify right)
 		)
-		(uuid "901883bb-d101-4157-a554-ccec9753ebab")
+		(uuid "704cdaaa-a42b-4a69-9984-ba38329e6408")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.9795 142.24 0)
+			(at 91.3041 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D11"
+		(shape bidirectional)
+		(at 125.73 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "748b455f-7195-4825-9e55-76415887630c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0584 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2806,95 @@
 	)
 	(global_label "D14"
 		(shape bidirectional)
-		(at 261.62 77.47 0)
+		(at 125.73 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "82dc3b14-2f88-4be6-9e28-76f664501901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0584 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D0"
+		(shape bidirectional)
+		(at 223.52 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "868618b3-9096-407c-93e3-32e5a71008a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.4659 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I5"
+		(shape input)
+		(at 219.71 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "901883bb-d101-4157-a554-ccec9753ebab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape bidirectional)
+		(at 125.73 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "99a37e81-3bfb-4179-9755-91fadc56acb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0584 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D14"
+		(shape bidirectional)
+		(at 261.62 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2502,7 +2904,7 @@
 		)
 		(uuid "9adb4721-43c9-43a6-8a17-b767baf65128")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.2916 77.47 0)
+			(at 266.2916 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2916,7 @@
 	)
 	(global_label "D1"
 		(shape bidirectional)
-		(at 223.52 64.77 0)
+		(at 223.52 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2524,12 +2926,34 @@
 		)
 		(uuid "a41d8f4b-d2f7-4087-aa71-a62cd0b2f62f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 64.77 0)
+			(at 227.4659 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 95.25 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "b8cd1ef4-1cb8-4e93-837b-458e296630a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.3041 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2580,7 +3004,7 @@
 	)
 	(global_label "D9"
 		(shape bidirectional)
-		(at 261.62 64.77 0)
+		(at 261.62 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2590,7 +3014,7 @@
 		)
 		(uuid "c060b6c6-0b85-490e-be80-b865f271386b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.5659 64.77 0)
+			(at 265.5659 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +3026,7 @@
 	)
 	(global_label "D5"
 		(shape bidirectional)
-		(at 223.52 74.93 0)
+		(at 223.52 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2612,7 +3036,7 @@
 		)
 		(uuid "c3fec79c-4f78-4d8e-8502-c010446f6099")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 74.93 0)
+			(at 227.4659 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +3048,7 @@
 	)
 	(global_label "D4"
 		(shape bidirectional)
-		(at 223.52 72.39 0)
+		(at 223.52 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2634,7 +3058,7 @@
 		)
 		(uuid "c6a4ea05-7ea3-485c-a3fc-1be9c1d49155")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 72.39 0)
+			(at 227.4659 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,6 +3090,28 @@
 			)
 		)
 	)
+	(global_label "D8"
+		(shape bidirectional)
+		(at 125.73 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "da32508b-2ec5-4cc8-b446-21202af0b676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.7841 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D1"
 		(shape bidirectional)
 		(at 95.25 87.63 180)
@@ -2688,9 +3134,53 @@
 			)
 		)
 	)
+	(global_label "D6"
+		(shape bidirectional)
+		(at 95.25 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "ec642028-80cb-4dfb-ab17-9a9afee6c53e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.3041 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape bidirectional)
+		(at 125.73 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "ef473829-20e3-49a1-bddf-73dcc61c97f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.0584 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D2"
 		(shape bidirectional)
-		(at 223.52 67.31 0)
+		(at 223.52 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2700,7 +3190,7 @@
 		)
 		(uuid "f98482a0-6362-4b93-956c-fa79442b0997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.4659 67.31 0)
+			(at 227.4659 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,6 +3306,83 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "028f3c68-3ce3-4566-a0f5-877c0c03d9e6")
+		(property "Reference" "D11"
+			(at 131.1275 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76684d38-4c8e-47a9-aeef-6cf5478279ab")
+		)
+		(pin "1"
+			(uuid "f36c7ca1-f605-4f1c-b313-e56a27142ea7")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2957,6 +3524,209 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 140.97 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0768b6ee-1212-42ea-a0e2-c32724e4a500")
+		(property "Reference" "#PWR024"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c337c34b-5cd4-4851-b9a0-5f452f572ed4")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af762e2-dad4-4983-9917-0e8bc164c129")
+		(property "Reference" "R15"
+			(at 137.16 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31f3ebe3-fd69-44b1-8a66-f971027b441e")
+		)
+		(pin "1"
+			(uuid "a2f775a4-e77b-490c-a1de-bfbb0aa75512")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237692b1-2e3c-478a-beb9-002fa8f6b166")
+		(property "Reference" "R12"
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2de387a3-e665-4b40-a112-9074e6b6ee77")
+		)
+		(pin "1"
+			(uuid "4dbe6298-120e-41e5-983d-d0bbf6977b8f")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 261.62 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3084,6 +3854,237 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cb46005-4ee8-428c-ac35-7c2f087bf2f2")
+		(property "Reference" "D12"
+			(at 131.1275 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50d480a0-5a51-41e5-a218-6f35b0919573")
+		)
+		(pin "1"
+			(uuid "856c30be-0a6b-491d-a362-bb3dceda896d")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b180af1-6991-4246-9e7c-da0a06863140")
+		(property "Reference" "D10"
+			(at 131.1275 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f7514e7-5f3b-4d97-a6e9-22fed5763a09")
+		)
+		(pin "1"
+			(uuid "b9025038-ff00-44e3-b0d6-e4e7ffa2a3ef")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f94b5a4-35df-446b-9659-b65fcf303904")
+		(property "Reference" "D13"
+			(at 131.1275 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52d9a526-23f0-4b03-b0a9-db6c8c060743")
+		)
+		(pin "1"
+			(uuid "41618aaf-b4fd-45b7-9824-30d42e0307fd")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3234,6 +4235,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ee9067-a873-4f97-89d0-77bf53ac946c")
+		(property "Reference" "D2"
+			(at 100.6475 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cb828a6-c258-4345-83fc-638a8fd01e72")
+		)
+		(pin "1"
+			(uuid "2668083f-810f-4169-be95-76d3705e1026")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 248.92 100.33 90)
 		(unit 1)
@@ -3301,17 +4379,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 120.65 90)
+		(lib_id "Device:R")
+		(at 106.68 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4748a48d-da2c-4750-95a0-5d68f3306ce7")
-		(property "Reference" "#PWR012"
-			(at 267.97 120.65 0)
+		(uuid "4753c149-4c90-46db-8a73-faeaa5abe570")
+		(property "Reference" "R5"
+			(at 106.68 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 106.68 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 106.68 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,17 +4413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 265.43 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 120.65 0)
+		(property "Datasheet" "~"
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,8 +4422,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 261.62 120.65 0)
+		(property "Description" "Resistor"
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,22 +4431,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "eeabdb29-abc8-4c79-a69f-b05ebcab18d2")
 		)
 		(pin "1"
-			(uuid "8a8093bf-050c-4b77-954d-7d99c75fd865")
+			(uuid "570baebf-5d6b-423a-8bae-7bc95461d615")
 		)
 		(instances
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
-					(reference "#PWR012")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3571,6 +4650,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 106.68 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d4f08d-f6ba-405b-8e52-50a8116d1f99")
+		(property "Reference" "R6"
+			(at 106.68 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 106.68 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 106.68 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e88a45e5-47fe-48c4-afef-e08687c5426c")
+		)
+		(pin "1"
+			(uuid "0793628c-d1ec-4b45-afb3-d218bd47f69f")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 123.19 90)
 		(unit 1)
@@ -3632,6 +4779,74 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6757d9e5-a5ea-4e7d-aa71-4d0914821882")
+		(property "Reference" "R13"
+			(at 137.16 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f4d4cd8-74e3-4da1-92b2-24bcd7a3ef6c")
+		)
+		(pin "1"
+			(uuid "bd9f37be-35ba-4bdc-8e64-1cb155e123de")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3706,7 +4921,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 193.04 69.85 0)
+		(at 187.96 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3715,7 +4930,7 @@
 		(dnp no)
 		(uuid "77ced723-f9b9-44f8-8202-18fc187e84a6")
 		(property "Reference" "J2"
-			(at 195.58 56.896 0)
+			(at 190.5 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +4938,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 193.675 82.55 0)
+			(at 188.595 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 193.04 69.85 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 69.85 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +4965,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 193.04 69.85 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,6 +5075,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d3f04fb-5da3-40eb-be46-5d68b9f19056")
+		(property "Reference" "D15"
+			(at 131.1275 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e42df24-1e38-41da-b93c-f5e99fc7310e")
+		)
+		(pin "1"
+			(uuid "2a718dd5-03b4-4843-bb7f-fc7070832a1c")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC688")
 		(at 248.92 130.81 0)
 		(mirror y)
@@ -3885,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 248.92 130.81 0)
 			(effects
 				(font
@@ -4076,7 +5368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 248.92 74.93 0)
 			(effects
 				(font
@@ -4200,7 +5492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 210.82 74.93 0)
 			(effects
 				(font
@@ -4291,6 +5583,219 @@
 			(project ""
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89e50eb8-5273-43a5-948e-9c6fb4f2df32")
+		(property "Reference" "R10"
+			(at 137.16 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4572b0e4-fe82-4943-9740-08b74d56458a")
+		)
+		(pin "1"
+			(uuid "a9fb0105-afa8-47d0-a26f-c6799aade4df")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bdf2f7e-2987-405a-8502-929b1cb69f80")
+		(property "Reference" "D5"
+			(at 131.1275 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c6e2c7-ecaa-411d-9a8f-cbfd3d49832b")
+		)
+		(pin "1"
+			(uuid "5cabfc36-808e-435d-a552-3f5b81c307bc")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4a7ff5-2fc0-4ec4-88b1-16ced6f74bda")
+		(property "Reference" "R9"
+			(at 137.16 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37b55ef3-7457-44d8-bf47-4d6d7551a33d")
+		)
+		(pin "1"
+			(uuid "c79c8f89-ffc0-4b4c-9477-b5aba8e44f78")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4784,6 +6289,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13f3d9e-c42e-48ee-8dec-411640281e6c")
+		(property "Reference" "D1"
+			(at 100.6475 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e999d33e-c22c-4cf2-aa12-f790094fa2b8")
+		)
+		(pin "1"
+			(uuid "3535819b-01b8-4884-b16c-082eaa60be53")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7a55b33-9463-41f0-a12f-c430a1f2ca5c")
+		(property "Reference" "D14"
+			(at 131.1275 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.1275 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea5eb3cb-2ad6-4fdf-aec1-68d256effae9")
+		)
+		(pin "1"
+			(uuid "b4801ff4-fc40-400c-8b19-5fb5dd93d6ed")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 236.22 85.09 90)
 		(unit 1)
@@ -4912,6 +6571,74 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9c4a21-f4ea-454a-8923-c52c618a4899")
+		(property "Reference" "R14"
+			(at 137.16 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab560bf9-f7d8-4bd9-9f0a-7e77aea833ab")
+		)
+		(pin "1"
+			(uuid "76550b26-c6cc-465c-a639-0dad3e0f0135")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5133,6 +6860,74 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ec7832-073d-405c-9f11-e55e9097b3a9")
+		(property "Reference" "R7"
+			(at 106.68 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 106.68 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 106.68 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abe91336-4ea9-4ee7-832f-1edfc1f0a8be")
+		)
+		(pin "1"
+			(uuid "1ba0ce95-d3a6-43e4-bfe9-5bed09f25d7e")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5361,6 +7156,83 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 99.06 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8cf7efe-822e-4177-b2ff-e759087d81d0")
+		(property "Reference" "D4"
+			(at 100.6475 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dede3314-e13a-473d-b05b-d26f8b9dc95e")
+		)
+		(pin "1"
+			(uuid "1457d1d8-be20-47a4-a52c-0d1ee5bf0ea4")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 99.06 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5431,6 +7303,140 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c06636-65cf-49f0-a1f8-29c5af7f20cc")
+		(property "Reference" "#PWR025"
+			(at 198.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14220654-a32c-41be-a79f-97f0601e84b3")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7cbb352-df1e-4867-a65c-7e59162d2629")
+		(property "Reference" "R11"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 137.16 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 137.16 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ac03767-d90e-4274-a780-cb7695f2083a")
+		)
+		(pin "1"
+			(uuid "3079f1dc-19ed-438a-9fda-732f32979e7c")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5565,6 +7571,151 @@
 			(project "DummyHat"
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b90f67-2acf-4047-a332-676d7368c3a3")
+		(property "Reference" "R8"
+			(at 106.68 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 106.68 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 106.68 151.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b43ab36-c7ed-4ff3-9e5e-feae681775f5")
+		)
+		(pin "1"
+			(uuid "3f35166e-3abf-474d-a4f4-410bdac34712")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 99.06 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f723a2cc-6b07-45a5-9889-9acc796da19d")
+		(property "Reference" "D3"
+			(at 100.6475 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.6475 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8502395d-01e4-4d37-a4e8-14678939be09")
+		)
+		(pin "1"
+			(uuid "b3f9f91f-43c8-4f64-ad08-6bfcbec30772")
+		)
+		(instances
+			(project "DummyHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
