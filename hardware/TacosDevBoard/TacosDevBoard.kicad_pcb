@@ -505,6 +505,7 @@
 		(property "Value" "Conn_01x08_Socket"
 			(at 0 20.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "88ebe44e-d4f5-4a84-aaa4-304beae7d538")
 			(effects
 				(font
@@ -810,7 +811,7 @@
 		(at 161.4 60.5)
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
-		(property "Reference" "BZ1"
+		(property "Reference" "BZ"
 			(at 3.8 -7.2 0)
 			(layer "F.SilkS")
 			(uuid "4c444513-ce7a-49f9-b80f-9be8f5e9a0f4")
@@ -929,17 +930,6 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 3.8 -4 0)
-			(layer "F.Fab")
-			(uuid "3de1c457-ce8c-4452-8b89-9e58e17a7d7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 2 2)
@@ -984,6 +974,7 @@
 		(property "Reference" "J3"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f3a2772-f98c-40b9-80df-5bb97144c009")
 			(effects
 				(font
@@ -1946,6 +1937,7 @@
 		(property "Reference" "J8"
 			(at 1.27 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cb1415ba-665b-4588-b65f-1aeb415570ba")
 			(effects
 				(font
@@ -2571,6 +2563,7 @@
 		(property "Reference" "J9"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "74638001-de79-4055-a83f-1d80a30cc9c0")
 			(effects
 				(font
@@ -3431,8 +3424,8 @@
 		(at 120.142 55.88)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
-		(property "Reference" "PWM1"
-			(at -0.025 -21.336 0)
+		(property "Reference" "PWM"
+			(at 0.0508 -20.3454 0)
 			(layer "B.SilkS")
 			(uuid "354814a7-d0bb-4c81-906b-56e32a1a5249")
 			(effects
@@ -3756,7 +3749,7 @@
 		(at 152.908 38.1 180)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
-		(property "Reference" "IC2_COMM1"
+		(property "Reference" "COMM"
 			(at 0 2.77 0)
 			(layer "B.SilkS")
 			(uuid "92619831-1089-4cf8-b943-154b5635a991")
@@ -4081,7 +4074,7 @@
 		(at 145.2626 131.4958 90)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
-		(property "Reference" "SELECT1"
+		(property "Reference" "SELECT"
 			(at -2.976 -16.32 0)
 			(layer "B.SilkS")
 			(uuid "beaf9792-ee37-404f-b23c-693186f45fd1")
@@ -4410,6 +4403,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "2a05e9e4-9cfb-4d47-b1d9-bcd2a50d8040")
+	)
+	(gr_text "T.A.C.O.S Dev Board"
+		(at 157.6832 142.2654 0)
+		(layer "F.SilkS")
+		(uuid "bc22a2fd-9761-44ef-9755-b76b56d347af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "${REFERENCE}"
 		(at 161.1122 102.1588 90)
