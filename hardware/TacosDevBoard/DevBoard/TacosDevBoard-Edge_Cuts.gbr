@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4-1.fc42*%
+%TF.CreationDate,2025-09-21T19:32:59-04:00*%
+%TF.ProjectId,TacosDevBoard,5461636f-7344-4657-9642-6f6172642e6b,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4-1.fc42) date 2025-09-21 19:32:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X109220000Y-34467800D02*
+X172847000Y-34467800D01*
+X172847000Y-142519400D01*
+X109220000Y-142519400D01*
+X109220000Y-34467800D01*
+M02*
