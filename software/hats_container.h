@@ -17,32 +17,44 @@ enum HatTypes {
 class HatsContainer {
 private:
 
-    // 5 pins that are used for data select
-    uint8_t selectPins[5];
+    // 5 pins are used for data select
+    bool* selectPins;
+    // 8 pwm pins
+    bool* pwmPins;
+    // 8 serial pins
+    bool* serialPins;
 
     // pointer to the first hat in the linked list
-    HatABC* hatArray = nullptr;
+    HatABC* headHat = nullptr;
 
+    HatTypes selectedHat;
+
+    // returns an array of booleans that represent individual bits
+    bool* destructData(bool* bits, uint8_t num,int numIndices=8);
+
+    // make my life easer so I dont have to wrire send function twice
+    void sendData(uint8_t data);
 
 public:
 
-    HatsContainer(uint8_t selectPins[5]);
+    HatsContainer(
+        bool* selectPins,
+        bool* pwmPins,
+        bool* serialPins);
 
     void addHat(HatABC* hat);
     HatABC* getHat(HatTypes hatType);
 
     // these will select the given hat
-    void select(uint8_t byte);
-    void select(HatTypes hatType);
+    bool select(HatTypes hatType);
 
-    // sends data to all 16 data pins, LSB is PWM, MSB is Serial
-    void sendData(uint16_t data);
-    
     // sends 8 bits of data to pwm compatible pins
     void sendPWM(uint8_t data);
 
     // sends 8 bits of data to the serial compatible pins
     void sendSerial(uint8_t data);
+
+    HatTypes getSelectedHat();
     
 
 };

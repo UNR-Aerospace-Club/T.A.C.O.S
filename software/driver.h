@@ -4,11 +4,21 @@
 #include "hats/hatABC.h"
 #include "hats/dummyhat.h"
 
-class Driver {
-    
+#include "hats_container.h"
 
-    const int dataPWM[8] = 
-        {1, 1, 1, 1, 1, 1, 1, 1};
+class Driver {
+private:    
+    bool dataSelect[5];
+    bool dataPWM[8];
+    bool dataSerial[8];
+
+    HatsContainer* hatsContainer;
+
+public:
+    Driver();
+    ~Driver();
+
+    void main();
 
 };
 
