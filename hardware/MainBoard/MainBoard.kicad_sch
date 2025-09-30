@@ -8436,7 +8436,7 @@
 			)
 		)
 	)
-	(global_label "VCC_5V"
+	(global_label "VCC_3V3"
 		(shape input)
 		(at 81.28 26.67 0)
 		(fields_autoplaced yes)
@@ -8448,7 +8448,7 @@
 		)
 		(uuid "8e64823c-1cc4-4710-909d-5d8a6d717551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.2079 26.67 0)
+			(at 87.9336 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,7 +9950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f4fd58c-2e66-481b-a119-99bac6856341")
-		(property "Reference" "J6"
+		(property "Reference" "+1"
 			(at 167.64 110.4899 0)
 			(effects
 				(font
@@ -10001,7 +10001,7 @@
 		(instances
 			(project ""
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
-					(reference "J6")
+					(reference "+1")
 					(unit 1)
 				)
 			)
@@ -11654,7 +11654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58975a48-47d6-4c56-9e00-810747360fe0")
-		(property "Reference" "J7"
+		(property "Reference" "-1"
 			(at 167.64 116.8399 0)
 			(effects
 				(font
@@ -11705,7 +11705,7 @@
 		(instances
 			(project ""
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
-					(reference "J7")
+					(reference "-1")
 					(unit 1)
 				)
 			)
@@ -13987,6 +13987,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
