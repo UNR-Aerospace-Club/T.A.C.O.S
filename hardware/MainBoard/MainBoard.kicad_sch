@@ -5158,12 +5158,20 @@
 		(uuid "f6c3fe3b-3ac0-4dc7-891d-31738598f74d")
 	)
 	(no_connect
+		(at 41.91 156.21)
+		(uuid "bafd1bd9-5b38-4633-9784-322cd7fcd429")
+	)
+	(no_connect
 		(at 52.07 67.31)
 		(uuid "d486672d-52c1-465c-a5d7-280c50293ef0")
 	)
 	(no_connect
 		(at 52.07 64.77)
 		(uuid "e1b22628-e854-448b-974f-dd0862538157")
+	)
+	(no_connect
+		(at 41.91 161.29)
+		(uuid "ea8a137a-bd9e-484c-8ed7-0adb89bd8c58")
 	)
 	(wire
 		(pts
