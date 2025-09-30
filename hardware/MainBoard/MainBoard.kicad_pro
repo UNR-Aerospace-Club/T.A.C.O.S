@@ -217,7 +217,14 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "Ground",
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -451,7 +458,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BlankHat.kicad_pro",
+    "filename": "MainBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
