@@ -14524,7 +14524,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "unconnected-(U1-IO9-Pad17)")
 			(pinfunction "IO9")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c30a717f-28f1-4b01-bcf7-4b617dbd3d3b")
 		)
 		(pad "18" smd rect
@@ -14542,7 +14542,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 48 "unconnected-(U1-IO11-Pad19)")
 			(pinfunction "IO11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d15afd81-ff94-4f21-bd62-027f9190ee8c")
 		)
 		(pad "20" smd rect
