@@ -3607,8 +3607,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 187.96 69.85 0)
-		(mirror y)
+		(at 187.96 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3616,7 +3615,7 @@
 		(dnp no)
 		(uuid "77ced723-f9b9-44f8-8202-18fc187e84a6")
 		(property "Reference" "J2"
-			(at 190.5 56.896 0)
+			(at 191.008 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3623,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 188.595 82.55 0)
+			(at 188.595 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +3632,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 187.96 69.85 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 69.85 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3650,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 187.96 69.85 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,8 +4895,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 231.14 69.85 0)
-		(mirror y)
+		(at 231.14 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4905,7 +4903,7 @@
 		(dnp no)
 		(uuid "d34c0b2e-9915-448a-a152-5caa32a78257")
 		(property "Reference" "J3"
-			(at 233.68 56.896 0)
+			(at 233.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4911,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 231.775 82.55 0)
+			(at 231.775 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4920,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 231.14 69.85 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 69.85 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4938,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 231.14 69.85 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
