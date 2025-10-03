@@ -620,6 +620,10 @@
     [
       "988df97c-fca1-40e2-af98-331e3f3f354f",
       "Root"
+    ],
+    [
+      "0083cdc5-b2ac-4b53-bbf9-3ad68cb40dda",
+      "peripherals"
     ]
   ],
   "text_variables": {}
