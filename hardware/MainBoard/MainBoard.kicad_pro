@@ -497,7 +497,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/MainBoard.step",
       "svg": "",
       "vrml": ""
     },
