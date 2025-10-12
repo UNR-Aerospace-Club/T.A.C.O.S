@@ -4419,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 62.23) (xy 29.21 62.23)
+			(xy 25.4 62.23) (xy 27.94 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5849,6 +5849,30 @@
 			)
 		)
 	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0285bb86-cc08-46fe-ac05-677da2407762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_3V3"
 		(shape bidirectional)
 		(at 27.94 115.57 0)
@@ -6247,7 +6271,7 @@
 		)
 	)
 	(global_label "VIN"
-		(shape input)
+		(shape output)
 		(at 92.71 26.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6884,6 +6908,30 @@
 			)
 		)
 	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "40b345d9-a739-4caa-8feb-87e9539fba38")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CONN_1"
 		(shape bidirectional)
 		(at 110.49 156.21 180)
@@ -6930,7 +6978,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 29.21 62.23 0)
+		(at 27.94 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6940,7 +6988,7 @@
 		)
 		(uuid "48f06f43-2fab-48b8-934b-ab83cb517479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.2191 62.23 0)
+			(at 33.9491 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +8101,7 @@
 			)
 		)
 	)
-	(global_label "CONN_VCC"
+	(global_label "VIN"
 		(shape bidirectional)
 		(at 123.19 147.32 0)
 		(fields_autoplaced yes)
@@ -8065,7 +8113,7 @@
 		)
 		(uuid "945b9800-d1f2-4485-83eb-14d67dd90b9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5628 147.32 0)
+			(at 127.4625 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8167,7 @@
 			)
 		)
 	)
-	(global_label "LIPO_PWR"
+	(global_label "LIPO PWR"
 		(shape input)
 		(at 36.83 24.13 180)
 		(fields_autoplaced yes)
@@ -8297,6 +8345,30 @@
 			)
 		)
 	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a3a7aa7c-a576-4c84-991b-44e78d8f86b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DATA6"
 		(shape bidirectional)
 		(at 146.05 176.53 180)
@@ -8381,6 +8453,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "ad679d50-2d48-4236-bc1d-dad15c081d53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8508,6 +8604,30 @@
 		(uuid "b24dcde8-d5d8-469a-bfae-4aa47c78e33e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.8371 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b3980ca8-675e-45af-8b35-86ccaf1c3f85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8769,7 @@
 			)
 		)
 	)
-	(global_label "VCC_5V"
+	(global_label "VIN"
 		(shape bidirectional)
 		(at 110.49 191.77 180)
 		(fields_autoplaced yes)
@@ -8661,7 +8781,7 @@
 		)
 		(uuid "b80f50e5-ac5d-40e8-8a4c-8c25a2905ceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8953 191.77 0)
+			(at 106.2175 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,6 +9364,54 @@
 			)
 		)
 	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "daedbeba-4b21-4589-825c-16eac8d25cf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3V3"
+		(shape input)
+		(at 227.33 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dcdb1d44-38e4-41b6-bd62-85f982fed7cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4596 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CONN_23"
 		(shape bidirectional)
 		(at 123.19 176.53 0)
@@ -9510,7 +9678,7 @@
 	)
 	(global_label "BZR"
 		(shape bidirectional)
-		(at 227.33 132.08 0)
+		(at 196.85 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9522,7 +9690,7 @@
 		)
 		(uuid "eff8980e-d704-4b27-9b10-306797cd9a49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.3234 132.08 0)
+			(at 201.8434 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +11124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 33.02 0)
 			(effects
 				(font
