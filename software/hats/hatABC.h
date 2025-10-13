@@ -5,7 +5,7 @@
 #include "../hats_container.h"
 
 class HatABC {
-private:
+protected:
 
     // the 8 pwm compatible data pins
     uint8_t dataPWM[8];
