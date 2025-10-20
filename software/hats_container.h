@@ -32,6 +32,8 @@ private:
 
     HatTypes selectedHat;
 
+    bool* destructData(uint8_t num, int numIndicies=5);
+
     // make my life easer so I dont have to wrire send function twice
     void sendData(uint8_t data);
 

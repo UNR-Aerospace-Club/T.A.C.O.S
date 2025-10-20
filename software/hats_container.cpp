@@ -13,6 +13,10 @@ HatsContainer::HatsContainer(
     this->serialPins = serialPins;
 }
 
+bool* HatsContainer::destructData(uint8_t num, int numIndicies=5) {
+
+}
+
 void HatsContainer::addHat(HatABC* hat) {
     HatABC* tmp = headHat;
     while (tmp->nextHat != nullptr) {
@@ -77,20 +81,12 @@ bool HatsContainer::select(HatTypes hatType) {
 
 
 // this works cause its a pointer
-void HatsContainer::sendData(uint8_t data, bool* pins) {
+void HatsContainer::sendData(uint16_t data, bool* pins) {
     bool bits[8];
     destructData(bits, data);
     for (int i = 0; i < 8; i++) {
         pins[i] = bits[i];
     }
-}
-
-void HatsContainer::sendPWM(uint8_t data) {
-    sendData(data, pwmPins);
-}
-
-void HatsContainer::sendSerial(uint8_t data) {
-    sendData(data, selectPins);
 }
 
 HatTypes HatsContainer::getSelectedHat() {return selectedHat;}
