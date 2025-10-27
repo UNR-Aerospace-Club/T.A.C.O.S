@@ -2222,7 +2222,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x16_Top_Bottom")
-		(at 34.29 149.86 0)
+		(at 63.5 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2231,7 +2231,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b9f4f83-1e9d-4fb9-bdc2-bc3bd6d835b4")
 		(property "Reference" "J2"
-			(at 35.56 125.73 0)
+			(at 64.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 			)
 		)
 		(property "Value" "Conn_02x16_Top_Bottom"
-			(at 35.56 128.27 0)
+			(at 64.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Footprint" "MolexFSB:FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Plugs"
-			(at 34.29 149.86 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 149.86 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x16, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 149.86 0)
+			(at 63.5 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x16_Top_Bottom")
-		(at 34.29 101.6 0)
+		(at 36.83 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2589,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c34d458-24e9-418f-a688-34ea10c7e36a")
 		(property "Reference" "J1"
-			(at 35.56 77.47 0)
+			(at 38.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2597,7 @@
 			)
 		)
 		(property "Value" "Conn_02x16_Top_Bottom"
-			(at 35.56 80.01 0)
+			(at 38.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2605,7 @@
 			)
 		)
 		(property "Footprint" "MolexFSB:FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Receptacles"
-			(at 34.29 101.6 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 101.6 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2623,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x16, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 101.6 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
