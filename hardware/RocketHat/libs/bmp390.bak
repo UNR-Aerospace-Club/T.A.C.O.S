@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ADXL375BCCZ"
+	(symbol "BMP390"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,22 +10,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 35.56 10.16 0)
+			(at 20.32 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "ADXL375BCCZ"
-			(at 35.56 7.62 0)
+		(property "Value" "BMP390"
+			(at 20.32 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "LGA_CC-14-1_ADI"
+		(property "Footprint" "10LGA_2X2X0p75_BOS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL375-EP.pdf"
+		(property "Datasheet" "BMP390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62,7 +62,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "ADXL375BCCZ"
+		(property "ki_keywords" "BMP390"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LGA_CC-14-1_ADI LGA_CC-14-1_ADI-M LGA_CC-14-1_ADI-L"
+		(property "ki_fp_filters" "10LGA_2X2X0p75_BOS 10LGA_2X2X0p75_BOS-M 10LGA_2X2X0p75_BOS-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,10 +80,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADXL375BCCZ_0_1"
+		(symbol "BMP390_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -30.48)
+					(xy 7.62 5.08) (xy 7.62 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -30.48) (xy 63.5 -30.48)
+					(xy 7.62 -15.24) (xy 33.02 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -107,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 63.5 5.08) (xy 7.62 5.08)
+					(xy 33.02 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 63.5 -30.48) (xy 63.5 5.08)
+					(xy 33.02 -15.24) (xy 33.02 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -129,12 +129,10 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "ADXL375BCCZ_1_1"
 			(pin power_in line
 				(at 0 0 0)
 				(length 7.62)
-				(name "VDD_I/O"
+				(name "VDDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -149,17 +147,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -5.08 0)
+			(pin input line
+				(at 0 -2.54 0)
 				(length 7.62)
-				(name "VS"
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -167,35 +165,35 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "SDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 0 -10.16 0)
 				(length 7.62)
-				(name "SCL/SCLK"
+				(name "SDO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 7.62)
-				(name "SDA/SDI/SDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -203,17 +201,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -20.32 0)
+			(pin power_in line
+				(at 40.64 0 180)
 				(length 7.62)
-				(name "SDO/ALT_ADDRESS"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -222,9 +220,9 @@
 				)
 			)
 			(pin input line
-				(at 0 -25.4 0)
+				(at 40.64 -7.62 180)
 				(length 7.62)
-				(name "*CS"
+				(name "INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -239,17 +237,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 71.12 0 180)
+			(pin input line
+				(at 40.64 -10.16 180)
 				(length 7.62)
-				(name "INT1"
+				(name "CSB"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,10 +255,30 @@
 					)
 				)
 			)
-			(pin output line
-				(at 71.12 -2.54 180)
+		)
+		(symbol "BMP390_1_1"
+			(pin power_in line
+				(at 0 -5.08 0)
 				(length 7.62)
-				(name "INT2"
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -276,106 +294,16 @@
 				)
 			)
 			(pin power_in line
-				(at 71.12 -7.62 180)
+				(at 40.64 -5.08 180)
 				(length 7.62)
-				(name "GND"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 71.12 -10.16 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 71.12 -12.7 180)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 71.12 -17.78 180)
-				(length 7.62)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 71.12 -20.32 180)
-				(length 7.62)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 71.12 -25.4 180)
-				(length 7.62)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
