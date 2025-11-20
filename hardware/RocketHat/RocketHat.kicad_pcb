@@ -2434,6 +2434,7 @@
 		(property "Reference" "C5"
 			(at 0 -1.05 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fca15195-3650-4177-8945-b4b4fbbf3578")
 			(effects
 				(font
