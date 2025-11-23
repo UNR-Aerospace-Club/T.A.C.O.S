@@ -5169,12 +5169,6 @@
 		(uuid "1c834380-a169-4ce1-a0e3-5e2f2d16948d")
 	)
 	(junction
-		(at 278.13 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e008b8e-1a22-4e64-b649-156e9c49cff9")
-	)
-	(junction
 		(at 82.55 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5233,6 +5227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d6cc640-ca3a-4d0b-bd75-9ecd47d5b8e4")
+	)
+	(junction
+		(at 278.13 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "789877a7-7901-4ea2-ad2f-97e01d6d9a2b")
 	)
 	(junction
 		(at 156.21 30.48)
@@ -5351,6 +5351,16 @@
 			(type default)
 		)
 		(uuid "0006bfdc-463d-46c8-8883-3c2cd430d641")
+	)
+	(wire
+		(pts
+			(xy 275.59 129.54) (xy 265.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02675736-0754-410b-99c9-563947069df5")
 	)
 	(wire
 		(pts
@@ -5484,6 +5494,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 132.08) (xy 275.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a211ad-4176-4651-86c3-a35fe24565b5")
+	)
+	(wire
+		(pts
 			(xy 213.36 118.11) (xy 213.36 106.68)
 		)
 		(stroke
@@ -5571,6 +5591,16 @@
 			(type default)
 		)
 		(uuid "5948f534-330a-4701-a4ef-a8c67daf8b25")
+	)
+	(wire
+		(pts
+			(xy 275.59 132.08) (xy 275.59 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d331ee5-d4f6-4d3e-afc1-dedf67ef8b41")
 	)
 	(wire
 		(pts
@@ -5681,16 +5711,6 @@
 			(type default)
 		)
 		(uuid "b1096e70-13bc-46a9-85e6-60e8a413c115")
-	)
-	(wire
-		(pts
-			(xy 265.43 132.08) (xy 278.13 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51f3974-b06c-4c6c-9031-a56322f4ea0a")
 	)
 	(wire
 		(pts
@@ -10120,73 +10140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 265.43 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bce6af0-196f-4fd5-a8e2-6ce807010a66")
-		(property "Reference" "#PWR04"
-			(at 271.78 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d635ff6b-e788-40a9-83d3-0ce35f03f3e6")
-		)
-		(instances
-			(project "RocketHat"
-				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.36 121.92 0)
 		(unit 1)
@@ -13883,6 +13836,73 @@
 			(project ""
 				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 265.43 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb8fb99f-d1ba-4496-bd11-cced7ada4f59")
+		(property "Reference" "#PWR04"
+			(at 261.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 269.24 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd7dab1-5886-4d2a-ac26-aa931f491aee")
+		)
+		(instances
+			(project "RocketHat"
+				(path "/988df97c-fca1-40e2-af98-331e3f3f354f"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
