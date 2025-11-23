@@ -1,0 +1,51 @@
+Comment,Designator,Footprint,LCSC,Quantity
+10uF,C13,C_0603_1608Metric,,1
+10uF,C8,C_0603_1608Metric,,1
+Conn_02x16_Top_Bottom,J1,FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Receptacles,,1
+0u1F,C16,C_0402_1005Metric,,1
+10k,R7,R_0603_1608Metric,,1
+10k,R11,R_0603_1608Metric,,1
+0u1F,C14,C_0402_1005Metric,,1
+PWRLED,D1,LED_0603_1608Metric,,1
+10k,R6,R_0603_1608Metric,,1
+10uF,C3,C_0603_1608Metric,,1
+En_B,J5,TestPoint_Pad_1.5x1.5mm,,1
+0u1F,C11,C_0402_1005Metric,,1
+Conn_02x16_Top_Bottom,J7,FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Plugs,,1
+10uF,C6,C_0603_1608Metric,,1
+10k,R10,R_0603_1608Metric,,1
+10k,R12,R_0603_1608Metric,,1
+10k,R1,R_0603_1608Metric,,1
+1uF,C1,C_0603_1608Metric,,1
+TPS22917DBV,U5,SOT-23-6,,1
+Micro_SD_Card_Det2,J6,microSD_HC_Hirose_DM3AT-SF-PEJM5,,1
+D_TVS_Small_Filled,D6,D_0603_1608Metric,,1
+AMS1117-5.0,U3,SOT-223-3_TabPin2,,1
+0u1F,C7,C_0402_1005Metric,,1
+10uF,C10,C_0603_1608Metric,,1
+0u1F,C2,C_0402_1005Metric,,1
+D_TVS_Small_Filled,D5,D_0603_1608Metric,,1
+5k1,R5,R_0402_1005Metric,,1
+5k1,R4,R_0402_1005Metric,,1
+75,R2,R_0603_1608Metric,,1
+RESET,BOOT1,SW_Push_1P1T_NO_CK_KMR2,,1
+100nF,C15,C_0402_1005Metric,,1
+0u1F,C5,C_0402_1005Metric,,1
+0u1F,C9,C_0402_1005Metric,,1
+En_A,J4,TestPoint_Pad_1.5x1.5mm,,1
+TPS22917DBV,U4,SOT-23-6,,1
+AMS1117-3.3,U2,SOT-223-3_TabPin2,,1
+10k,R9,R_0603_1608Metric,,1
+10k,R8,R_0603_1608Metric,,1
+10uF,C4,C_0603_1608Metric,,1
+FDN340P,Q3,SOT-23,,1
+1N5819WS,D4,D_SOD-323,,1
+LIPO GND,-1,TestPoint_Pad_2.0x2.0mm,,1
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1U,,1
+10K,R13,R_0603_1608Metric,,1
+D_TVS_Small_Filled,D3,D_0603_1608Metric,,1
+USB_C_Receptacle_USB2.0_16P,J3,USB_C_Receptacle_GCT_USB4085,,1
+FDN340P,Q2,SOT-23,,1
+10uF,C12,C_0603_1608Metric,,1
+Buzzer,BZ1,Buzzer_Murata_PKMCS0909E,,1
+Conn_02x16_Top_Bottom,J2,FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Plugs,,1
