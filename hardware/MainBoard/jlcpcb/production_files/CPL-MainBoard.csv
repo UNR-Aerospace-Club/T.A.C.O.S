@@ -27,8 +27,8 @@ J2,Conn_02x16_Top_Bottom,FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-B
 J3,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_GCT_USB4085,70.322964,-91.725,90.0,bottom
 J6,Micro_SD_Card_Det2,microSD_HC_Hirose_DM3AT-SF-PEJM5,81.37,-100.8,0.0,top
 J7,Conn_02x16_Top_Bottom,FSB5 Series 0.40 mm Pitch Floating SlimStack Board-to-Board Plugs,78.8338,-70.9654,180.0,top
-Q2,FDN340P,SOT-23,85.95,-95.4375,90.0,bottom
-Q3,FDN340P,SOT-23,83.704047,-99.4869,270.0,bottom
+Q2,FDN340P,SOT-23,82.42,-103.1575,270.0,bottom
+Q3,FDN340P,SOT-23,84.665953,-99.1081,90.0,bottom
 R1,10k,R_0603_1608Metric,86.9056,-56.1086,0.0,top
 R10,10k,R_0603_1608Metric,68.3768,-59.1994,90.0,top
 R11,10k,R_0603_1608Metric,85.759,-89.055,-90.0,top
